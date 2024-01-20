@@ -1,0 +1,4 @@
+make: 
+	gfortran -c ../../share/module_model_constants.F90 module_bl_mynn_gfs_machine.F90 module_bl_mynn_common.F90 module_bl_mynn_init.F90 module_bl_mynn_functions.F90 module_bl_mynn_tendencies.F90 module_bl_mynn_ddmf_jpl.F90 module_bl_mynn_tridiag.F90 module_bl_mynn_dmp_mf.F90 module_bl_mynn_condensation.F90 module_bl_mynn_condensation_edmf.F90 module_bl_mynn_mix_chem.F90 module_bl_mynn_bolouac_length.F90 module_bl_mynn_bolouac_length0.F90 module_bl_mynn_level2.F90 module_bl_mynn_topdown_cloudrad.F90 module_bl_mynn_coeffs.F90 module_bl_mynn_scale_aware.F90 module_bl_mynn_turbulence.F90 module_bl_mynn_check.F90 module_bl_mynn_predict.F90 module_bl_mynn_main.F90 
+clean:
+	rm *.o *.mod
